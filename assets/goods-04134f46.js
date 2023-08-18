@@ -1,0 +1,1 @@
+import{e as s}from"./index-4b809c19.js";const r=t=>s("goods","get",t),g=()=>s("categories","get"),c=(t,e)=>s(`categories/${t}/attributes`,"get",e),d=(t,e,o)=>s(`categories/${t}/attributes/${e}`,"delete",o),i=(t,e,o)=>s(`categories/${t}/attributes/${e}`,"put",o);export{g as a,c as b,i as c,d,r as g};
